@@ -68,6 +68,8 @@ namespace WindowsFormsApp2
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::WindowsFormsApp2.Properties.Resources.color_palette;
             this.pictureBox1.Location = new System.Drawing.Point(12, 3);
@@ -79,6 +81,7 @@ namespace WindowsFormsApp2
             // 
             // btn
             // 
+            this.btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn.Location = new System.Drawing.Point(282, 35);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(32, 31);
