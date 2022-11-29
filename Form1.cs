@@ -23,6 +23,7 @@ namespace WindowsFormsApp2
             g = Graphics.FromImage(bm);
             g.Clear(Color.White);
             pic.Image = bm;
+            pic.ImageLocation = @"C:\Users\User\Pictures\Saved Pictures\samurai.jpg";
         }
 
         Bitmap bm;
